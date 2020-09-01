@@ -1,0 +1,29 @@
+Panel klient
+dodawanie usuwanie wyswietlanie klientow,
+pesel musi byc od 3 do 11 cyfr,
+sprawdzanie czy pola sa uzupelnione, sprawdzenie czy pesel jest poprawny
+
+Panel ksiazki
+dodawanie usuwanie wysiwetlanie ksiazek
+edycja ceny zaznaczonej ksiazki,
+jezeli cena z przecinkiem to speparatorem jest "." !
+sprawdzenie uzupelnienia danych
+sprawdzenie poprawnosci isbn 
+isbn musi miec 13 cyfr
+
+Panel zamowienia
+dodawanie nowego zamowienia
+sprawdzanie czy pesel albo isbn jest w bazie danych
+sprawdzenie reszty wprowadzonych danych
+aktualizacja statusu zamowienia
+trzeba zaznaczyc zamowienie wybrac z listy i kliknac aktualizuj
+
+
+Wszyskie komunikaty z bledami sa wyswietlane w pasku na dole programu (w stopce)
+tak samo jak wszelkie komunikaty o sukcesie przeprowadzonej operacji
+
+kod jest popisany wszsytko sklada sie z 2ch paczek bazy danych i programu
+
+do hostowania bazy danych uzywalem phpmyadmin hostowany przez xampa
+
+wybor bazy danych w kompilatorze to mysql
